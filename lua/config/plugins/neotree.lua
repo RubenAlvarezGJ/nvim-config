@@ -1,0 +1,5 @@
+vim.keymap.set('n', '<C-h>', '<C-w>h', { desc = 'Switch to right window' })
+vim.keymap.set('n', '<C-l>', '<C-w>l', { desc = 'Switch to left window' })
+vim.keymap.set('n', '<C-j>', '<C-w>j', { desc = 'Switch to bottom window' })
+vim.keymap.set('n', '<C-k>', '<C-w>k', { desc = 'Switch to top window' })
+vim.keymap.set('n', '<leader>e', '<cmd>Neotree toggle<cr>', { desc = 'Toggle Neo-tree' })
