@@ -22,6 +22,7 @@ vim.pack.add({
 	{ src = 'https://github.com/folke/tokyonight.nvim',       name = 'tokyonight' },
 	{ src = 'https://github.com/navarasu/onedark.nvim',       name = 'onedark' },
 	{ src = 'https://github.com/ellisonleao/gruvbox.nvim',    name = 'gruvbox' },
+	{ src = 'https://github.com/rose-pine/neovim',            name = 'rosepine' },
 	{ src = 'https://github.com/nvim-neo-tree/neo-tree.nvim', version = vim.version.range('3') },
 	'https://github.com/mason-org/mason-lspconfig.nvim',
 	'https://github.com/nvim-lua/plenary.nvim',
@@ -43,7 +44,8 @@ require('config.plugins.mason')
 require('config.plugins.lsp')
 --require('config.plugins.tokyonight')
 --require('config.plugins.onedark')
-require('config.plugins.gruvbox')
+--require('config.plugins.gruvbox')
+require('config.plugins.rosepine')
 require('config.plugins.neotree')
 require('config.plugins.telescope')
 require('config.plugins.treesitter')
